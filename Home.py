@@ -10,8 +10,11 @@ st.write("# 👷 NYC Field Workers Assistance App 👷‍♀️")
 
 st.sidebar.title("Contact")
 
-st.sidebar.info("""
+st.sidebar.info(
+    """
     Sachin Shrivastav
+    
+    [Email: sachinxshrivastav@gmail.com]
     """
 )
 
