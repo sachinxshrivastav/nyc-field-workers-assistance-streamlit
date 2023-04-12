@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import time
 
+
 st.set_page_config(layout="wide")
 
 st.write("# 👷 NYC Field Workers Assistance App 👷‍♀️")
@@ -10,8 +11,7 @@ st.write("# 👷 NYC Field Workers Assistance App 👷‍♀️")
 st.sidebar.title("Contact")
 
 st.sidebar.info("""
-    Sachin Shrivastav   
-    [GitHub](https://github.com/sachinxshrivastav) | [LinkedIn](https://www.linkedin.com/in/sachinxshrivastav/)
+    Sachin Shrivastav
     """
 )
 
