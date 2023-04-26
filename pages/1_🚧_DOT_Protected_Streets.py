@@ -33,18 +33,7 @@ def read_data():
   return df
 
 @st.cache_data
-def draw_kepler_map(df):
-  config = {
-    'version': 'v1',
-    'config': {
-        'mapState': {
-            'latitude': 40.7128 ,
-            'longitude': -74.0060,
-            'zoom': 10
-        }
-        
-    }
-    }
+def draw_kepler_map(df,config):
   map = KeplerGl(height=600, data={"NYC Proteced Streets": df}, config=config,)
   keplergl_static(map)
   #map.save_to_html(file_name='data/protected_streets.html',read_only=True, config=config)
@@ -58,7 +47,9 @@ def main():
   # Read Data
   df = read_data()
 
-  draw_kepler_map(df)
+  config = {'version': 'v1','config': {'mapState': {'latitude': 40.7128 ,'longitude': -74.0060,'zoom': 10}}}
+
+  draw_kepler_map(df,config)
     
 if __name__ == "__main__":
     main()
