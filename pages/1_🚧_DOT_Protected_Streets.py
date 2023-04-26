@@ -34,7 +34,7 @@ def read_data():
 
 @st.cache_data
 def draw_kepler_map(df,config):
-  map = KeplerGl(height=600, data={"NYC Proteced Streets": df}, config=config,)
+  map = KeplerGl(height=600, data={"NYC Proteced Streets": df}, config=config)
   keplergl_static(map)
   #map.save_to_html(file_name='data/protected_streets.html',read_only=True, config=config)
   #p = open("data/protected_streets.html")
