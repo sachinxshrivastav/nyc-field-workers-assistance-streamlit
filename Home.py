@@ -16,8 +16,8 @@ st.sidebar.info(
 
 st.markdown(
 """
-This application is designed to help New York City Utility Company Field Workers.
-This has multiple sub applications.
+The primary objective of this application is to aid field workers employed by New York City's utility company. 
+The application comprises several sub-applications to cater to various needs of the workers.
 """
 )
    

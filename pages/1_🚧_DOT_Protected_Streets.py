@@ -7,8 +7,12 @@ from streamlit_keplergl import keplergl_static
 def display_title():
   st.set_page_config(layout="wide")
   st.title('New York City Protected Streets')
-  st.markdown("""Application displays New York City street segments that are blocked for performing 
-  any kind of digging and repair work as a layer on 3D Maps.
+  st.markdown("""
+  - The New York City Protected Streets application is a user-friendly application designed to provide information on the protected streets in New York City. 
+  - Field Workers can navigate and find out the protected street segments so that they can plan their construction/repair work.
+  - Application gets real-time data updates from NYC Open Data portal.
+  - Workers can click on the street segments on the map to view street name and the date from and to till the segment is protected.
+  
   """)
 
 @st.cache_data
