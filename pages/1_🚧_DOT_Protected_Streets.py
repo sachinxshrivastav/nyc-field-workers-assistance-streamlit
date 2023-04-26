@@ -12,7 +12,6 @@ def display_title():
   - Field Workers can navigate and find out the protected street segments so that they can plan their construction/repair work.
   - Application gets real-time data updates from NYC Open Data portal.
   - Workers can click on the street segments on the map to view street name and the date from and to till the segment is protected.
-  
   """)
 
 @st.cache_data
