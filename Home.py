@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import time
 
-
 st.set_page_config(layout="wide")
 
 st.write("# 👷 NYC Field Workers Assistance App 👷‍♀️")
@@ -20,7 +19,7 @@ st.sidebar.info(
 
 st.markdown(
 """
-This application is designed to help New York City Field Workers.
+This application is designed to help New York City Utility Company Field Workers.
 This has multiple sub applications.
 """
 )
